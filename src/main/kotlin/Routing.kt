@@ -2,6 +2,7 @@ package com.plcoding
 
 import com.plcoding.room.RoomController
 import com.plcoding.routes.chatSocket
+import com.plcoding.routes.getAllMessages
 import io.ktor.server.application.*
 import io.ktor.server.response.*
 import io.ktor.server.routing.*
@@ -20,5 +21,6 @@ fun Application.configureRouting() {
         }
 
         chatSocket(roomController)
+        getAllMessages(roomController)
     }
 }

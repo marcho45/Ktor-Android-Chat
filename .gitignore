@@ -1,0 +1,17 @@
+# Environment variables (JANGAN di-push, isinya credential rahasia)
+.env
+
+# Gradle
+.gradle
+build/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# Local config
+local.properties
+
+# OS files
+.DS_Store
+Thumbs.db
